@@ -72,3 +72,11 @@ function keyPressed(){
         Matter.Body.applyForce(b1.body,b1.body.position,{x:-285,y:285})
     }
 }
+
+function mouseDragged(){
+    Matter.Body.setPosition(b5.body,{x:mouseX,y:mouseY})
+}
+
+function mouseReleased(){
+    p5.fly()      
+}
