@@ -12,4 +12,9 @@ class Const{
     display(){
 
     }
+    fly(){
+       if(this.body.speed>2){
+          this.body=null   
+       }
+    }
 }
